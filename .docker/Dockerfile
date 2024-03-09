@@ -1,15 +1,12 @@
 ARG DEBIAN_IMAGE=debian:stable-slim
 ARG BASE=gcr.io/distroless/static-debian11:nonroot
 
-FROM golang:1.22.0-alpine AS base
+FROM golang:1.20-alpine AS base
 WORKDIR /app
-ENV GOOS linux
-ENV GOARCH amd64
 
 RUN apk --no-cache --no-progress add bash git openssh
 
-COPY go.mod ./
-COPY go.sum ./
+COPY go.mod go.sum ./
 
 RUN go mod download
 COPY . .
