@@ -4,7 +4,7 @@ ARG BASE=gcr.io/distroless/static-debian11:nonroot
 FROM golang:1.20-alpine AS base
 WORKDIR /app
 
-RUN apk --no-cache --no-progress add bash git openssh
+RUN apk --no-cache --no-progress add g++ make
 
 COPY go.mod go.sum ./
 
