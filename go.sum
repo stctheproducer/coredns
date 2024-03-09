@@ -244,6 +244,8 @@ github.com/quic-go/quic-go v0.40.1 h1:X3AGzUNFs0jVuO3esAGnTfvdgvL4fq655WaOi1snv1
 github.com/quic-go/quic-go v0.40.1/go.mod h1:PeN7kuVJ4xZbxSv/4OX6S1USOX8MJvydwpTx31vx60c=
 github.com/richardartoul/molecule v1.0.1-0.20221107223329-32cfee06a052 h1:Qp27Idfgi6ACvFQat5+VJvlYToylpM/hcyLBI3WaKPA=
 github.com/rogpeppe/go-internal v1.10.0 h1:TMyTOH3F/DB16zRVcYyreMH6GnZZrwQVAoYjRBZyWFQ=
+github.com/scottt732/coredns-traefik v0.0.0-20240305170742-cef2a7f65102 h1:3MZHsRIKIELmS0IVqPnXr4K8eYtI6D7BIYKENVWrkCU=
+github.com/scottt732/coredns-traefik v0.0.0-20240305170742-cef2a7f65102/go.mod h1:r53r8HmPTP14eCX9mQcU4QcNLluq2RzBTy8PjfYZw/M=
 github.com/secure-systems-lab/go-securesystemslib v0.7.0 h1:OwvJ5jQf9LnIAS83waAjPbcMsODrTQUpJ02eNLUoxBg=
 github.com/secure-systems-lab/go-securesystemslib v0.7.0/go.mod h1:/2gYnlnHVQ6xeGtfIqFy7Do03K4cdCY0A/GlJLDKLHI=
 github.com/sirupsen/logrus v1.7.0/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic61uBYv0=
