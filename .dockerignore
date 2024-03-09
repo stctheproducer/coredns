@@ -1,2 +1,13 @@
-*
-!coredns
+# Files
+.dockerignore
+.circleci
+.devcontainer
+**/*.md
+**/*_test.go
+LICENSE
+Dockerfile
+
+# Folders
+.git
+.github
+test
